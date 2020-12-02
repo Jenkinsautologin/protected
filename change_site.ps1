@@ -99,7 +99,7 @@ else {
     $newSiteFolder = "onesite"
 }
 
-# copy deployed files to site folder
+# copy deployed files site folder
 copyDeployedFiles $currentSitePath $currentSiteFolder $newSiteFolder $deployPath 
 
 # rewrite application path
